@@ -1,0 +1,91 @@
+.w{  /* 版心的宽度，京东所有的内容都在版心中 */
+    width: 1190px;
+    margin: 0 auto;
+    position: relative;/* 供下面儿子使用定位 */
+}
+
+.f99{   /* 定义一个公共的颜色，供以后多次使用 */
+    color: #999999!important;
+}
+.jdred{
+    /* 这种颜色优先级最高 */
+    color: #f10215!important;
+}
+
+.f10{
+    color: #f10215!important;
+}
+
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+
+.shortcut li{
+    float: left;
+}
+
+.fr li{
+    margin-left: 10px;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #999999;
+}
+/* 清除掉带有默认内外边距的标签原本的语义 */
+body,button,dd,dt,dl,form,h1,h2,h3,h4,h5,h6,hr,input,li,ol,p,td,textarea,th,ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header{
+    background-color: rgb(239,90,0);
+    height: 80px;
+}
+header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?bb0knl');
+    src:  url('../fonts/icomoon.eot?bb0knl#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?bb0knl') format('truetype'),
+      url('../fonts/icomoon.woff?bb0knl') format('woff'),
+      url('../fonts/icomoon.svg?bb0knl#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.icon-cross:before {
+  content: "\ea0f";
+}
+/* 调整关闭按钮的位置，显示在右边 */
+header span{
+    float: right;
+}
+
+.shortcut{
+    height: 30px;
+    background-color: #f4f4f4;
+}
+
+ul{
+    list-style: none;  /* 清除列表前面的点 */
+}
+
+li{
+    line-height: 30px;
+}
